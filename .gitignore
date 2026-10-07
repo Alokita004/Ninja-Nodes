@@ -1,0 +1,56 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+.venvs/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Frontend build
+dist/
+build/
+.cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs / temporary output
+*.log
+out_bench.txt
+
+# DeepEval
+.deepeval/
+
+# Installers / system files
+*.exe
+*.msi
+*.winmd
+
+# Keep project images
+!*.png
+!*.jpg
+!*.jpeg
+!*.webp
+
+eval_hidden.jsonl

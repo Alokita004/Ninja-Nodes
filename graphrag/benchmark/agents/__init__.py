@@ -1,0 +1,1 @@
+"""Bounded agentic GraphRAG controller."""

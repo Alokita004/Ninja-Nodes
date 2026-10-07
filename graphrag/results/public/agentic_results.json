@@ -1,0 +1,15 @@
+{
+  "record_count": 0,
+  "pipeline": "agentic",
+  "config": {
+    "llm_model": "mock-model",
+    "embedding_model": "mock-embedding",
+    "chunk_size": 512,
+    "chunk_overlap": 64,
+    "top_k": 3,
+    "temperature": 0.0,
+    "max_agent_steps": 3,
+    "context_limit": 8192
+  },
+  "records": []
+}

@@ -1,0 +1,58 @@
+﻿{
+  "db_config": {
+    "hostname": "https://tg-1913ed8b-042b-47f3-a163-7a296d4ea1d2.tg-2635877100.i.tgcloud.io",
+    "restppPort": "9000",
+    "gsPort": "14240",
+    "username": "tigergraph",
+  
+    "secret": "YOUR_TIGERGRAPH_SECRET",
+    "graph_name": "OlympicBenchmarkGraph",
+    "default_timeout": 300,
+    "default_mem_threshold": 5000,
+    "default_thread_limit": 8
+  },
+  "graphrag_config": {
+    "reuse_embedding": true,
+    "ecc": "http://localhost:8001",
+    "chat_history_api": "http://localhost:8002",
+    "chunker_config": {
+      "chunk_size": 500,
+      "chunk_overlap": 50
+    }
+  },
+  "llm_config": {
+    "token_limit": 0,
+    "authentication_configuration": {
+      "GOOGLE_API_KEY": "YOUR_GOOGLE_API_KEY"
+    },
+    "embedding_service": {
+      "model_name": "text-embedding-004",
+      "embedding_model_service": "google"
+    },
+    "completion_service": {
+      "llm_service": "google",
+      "llm_model": "gemini-2.5-flash",
+      "model_kwargs": {
+        "temperature": 0
+      },
+      "prompt_path": "./common/prompts/google/"
+    },
+    "multimodal_service": {
+      "llm_service": "google",
+      "llm_model": "gemini-2.5-flash",
+      "model_kwargs": {
+        "temperature": 0
+      }
+    }
+  },
+  "chat_config": {
+    "apiPort": "8002",
+    "dbPath": "chats.db",
+    "dbLogPath": "db.log",
+    "logPath": "requestLogs.jsonl",
+    "conversationAccessRoles": [
+      "superuser",
+      "globaldesigner"
+    ]
+  }
+}

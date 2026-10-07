@@ -1,0 +1,343 @@
+{
+  "profile_version": 1,
+  "datasets": {
+    "corpus": {
+      "path": "..\\corpus.jsonl",
+      "dataset": "corpus",
+      "record_count": 2951,
+      "malformed_records": [],
+      "field_summary": {
+        "approx_tokens": {
+          "present": 2951,
+          "missing": 0,
+          "required_by_observation": true,
+          "null": 0,
+          "observed_types": {
+            "integer": 2951
+          }
+        },
+        "doc_id": {
+          "present": 2951,
+          "missing": 0,
+          "required_by_observation": true,
+          "null": 0,
+          "observed_types": {
+            "string": 2951
+          }
+        },
+        "text": {
+          "present": 2951,
+          "missing": 0,
+          "required_by_observation": true,
+          "null": 0,
+          "observed_types": {
+            "string": 2951
+          }
+        },
+        "title": {
+          "present": 2951,
+          "missing": 0,
+          "required_by_observation": true,
+          "null": 0,
+          "observed_types": {
+            "string": 2951
+          }
+        },
+        "url": {
+          "present": 2951,
+          "missing": 0,
+          "required_by_observation": true,
+          "null": 0,
+          "observed_types": {
+            "string": 2951
+          }
+        },
+        "wikidata_qid": {
+          "present": 2951,
+          "missing": 0,
+          "required_by_observation": true,
+          "null": 0,
+          "observed_types": {
+            "string": 2951
+          }
+        },
+        "wikipedia_pageid": {
+          "present": 2951,
+          "missing": 0,
+          "required_by_observation": true,
+          "null": 0,
+          "observed_types": {
+            "integer": 2951
+          }
+        }
+      },
+      "duplicate_id_count": 0,
+      "null_field_count": {},
+      "length_unit": "characters",
+      "length_distribution": {
+        "min": 444,
+        "p25": 2545.5,
+        "median": 4131,
+        "p75": 8647.0,
+        "max": 107498
+      },
+      "whitespace_token_distribution": {
+        "min": 62,
+        "p25": 504.0,
+        "median": 836,
+        "p75": 1581.0,
+        "max": 17577
+      },
+      "representative_records": [
+        {
+          "doc_id": "Q303623",
+          "title": "Canoeing at the 2012 Summer Olympics – Men's K-2 1000 metres",
+          "url": "https://en.wikipedia.org/wiki/Canoeing_at_the_2012_Summer_Olympics_%E2%80%93_Men%27s_K-2_1000_metres",
+          "wikidata_qid": "Q303623",
+          "wikipedia_pageid": 35771859,
+          "approx_tokens": 704,
+          "text": "[Infobox Olympic event]\n  event: Men's canoe sprint K-2 1,000 metres\n  games: 2012 Summer\n  venue: Eton Dorney\n  date: 6 to 8 August\n  competitors: 24\n  nations: 12\n  gold: Rudolf DombiRoland Kökény\n  goldNOC: HUN\n  silver: Fernando PimentaEmanuel Silva\n  silverNOC: POR\n  bronze: Martin HollsteinAndreas Ihle\n  bronzeNOC: GER\n  win_value: 3:09.646\n  prev: 2008\n  next: 2016\n\nThe men's canoe sprint K-2 1,000 metres competition at the 2012 Olympic Games in London took place between 6 and 8 August at Eton Dorney.\n\nRudolf Dombi and Roland Kökény from Hungary won the gold medal. Portugal's Fernando Pimenta and Emanuel Silva won silver — the country's only medal at the 2012 Games — and Martin Hollstein and Andreas Ihle from Germany took bronze.\n\nCompetition format\nThe competition comprised heats, semifinals, and a final round. Heat winners advanced to the \"A\" final, with all other boats getting a second chance in the semifinals. The top three from each semifinal also advanced to the \"A\" final, and competed for medals. A placing \"B\" final was held for the other semifinalists.\n\nSchedule\nAll times are British Summer Time (UTC+01:00)\n\nResults\n\nHeats\nFirst boat qualified for the final, remainder go to semifinals.\n\nHeat 1\n\nHeat 2\nSemifinals\nThe fastest three canoeists in each semifinal qualify for the 'A' final. The slowest two canoeists in each semifinal qualify for the 'B' final.\n\nSemifinal 1\n\nSemifinal 2\nFinals\n\nFinal B\nFinal A\n\nResults table\nDate | Time | Round\nMonday 6 August 2012 | 10:1811:30 | HeatsSemifinals\nWednesday 8 August 2012 | 10:16 | Finals\n\nRank | Canoer | Country | Time | Notes\n1 | Martin HollsteinAndreas Ihle | 3:15.263 | Q\n2 | 3:19.073\n3 | Peter GelleErik Vlček | 3:19.571\n4 | Olivier CauwenberghLaurens Pannecoucke | 3:24.304\n5 | 3:32.176\n6 | 3:55.748\n\nRank | Canoer | Country | Time | Notes\n1 | Rudolf DombiRoland Kökény | 3:11.393 | Q\n2 | Fernando PimentaEmanuel Silva | 3:13.710\n3 | 3:16.590\n4 | 3:16.608\n5 | Kim WraaeEmil Staer | 3:17.020\n6 | Ilya MedvedevAnton Ryakhov | 3:21.086\n\nRank | Canoer | Country | Time | Notes\n1 | 3:13.125 | Q\n2 | 3:13.239 | Q\n3 | 3:15.307 | Q\n4 | 3:17.788\n5 | 3:29.819\n\nRank | Canoer | Country | Time | Notes\n1 | Peter GelleErik Vlček | 3:12.690 | Q\n2 | Ilya MedvedevAnton Ryakhov | 3:12.901 | Q\n3 | Fernando PimentaEmanuel Silva | 3:14.017 | Q\n4 | Kim WraaeEmil Staer | 3:15.580\n5 | Olivier CauwenberghLaurens Pannecoucke | 3:15.655\n\nRank | Canoer | Country | Time\n1 | Kim WraaeEmil Staer | 3:12.820\n2 | Olivier CauwenberghLaurens Pannecoucke | 3:13.298\n3 | 3:14.867\n4 | 3:18.550\n\nRank | Canoer | Country | Time\nRudolf DombiRoland Kökény | 3:09.646\nFernando PimentaEmanuel Silva | 3:09.699\nMartin HollsteinAndreas Ihle | 3:10.117\n4 | 3:11.456\n5 | 3:11.803\n6 | Ilya MedvedevAnton Ryakhov | 3:12.047\n7 | 3:12.117\n8 | Peter GelleErik Vlček | 3:12.519"
+        },
+        {
+          "doc_id": "Q607635",
+          "title": "Speed skating at the 2010 Winter Olympics – Men's 5000 metres",
+          "url": "https://en.wikipedia.org/wiki/Speed_skating_at_the_2010_Winter_Olympics_%E2%80%93_Men%27s_5000_metres",
+          "wikidata_qid": "Q607635",
+          "wikipedia_pageid": 25346743,
+          "approx_tokens": 483,
+          "text": "[Infobox Olympic event]\n  event: Men's 5000 metres\n  games: 2010 Winter\n  venue: Richmond Olympic Oval\n  date: 13 February 2010\n  competitors: 28\n  nations: 16\n  win_value: 6:14.60 speed skating\n  longnames: yes\n  gold: Sven Kramer\n  goldNOC: NED\n  silver: Lee Seung-hoon\n  silverNOC: KOR\n  bronze: Ivan Skobrev\n  bronzeNOC: RUS\n  prev: 2006\n  next: 2014\n\nThe men's 5000 metres speed skating competition of the 2010 Winter Olympics in Vancouver was held at the Richmond Olympic Oval on 13 February 2010.\n\nRecords\nPrior to this competition, the existing world and Olympic records were as follows.\n\nThe following new Olympic record was set during this competition.\n\nOR = Olympic record\n\nResults\n\nResults table\n13 February | Pair 11 | Sven Kramer | NED | 6:14.60 | OR\n\n11 | i | Sven Kramer | 6:14.60 | OR\n12 | i | 6:16.95 | +2.35\n13 | i | Ivan Skobrev | 6:18.05 | +3.45\n04 | 14 | i | Håvard Bøkko | 6:18.80 | +4.20\n05 | 12 | o | Bob de Jong | 6:19.02 | +4.42\n06 | 10 | i | Alexis Contin | 6:19.58 | +4.98\n07 | 13 | o | Enrico Fabris | 6:20.53 | +5.93\n08 | 10 | o | 6:24.80 | +10.20\n09 | 7 | o | Jan Blokhuijsen | 6:26.30 | +11.70\n10 | 6 | i | 6:27.05 | +12.45\n11 | 14 | o | Chad Hedrick | 6:27.07 | +12.47\n12 | 11 | o | Shani Davis | 6:28.44 | +13.84\n13 | 8 | i | Lucas Makowsky | 6:28.71 | +14.11\n14 | 2 | o | Trevor Marsicano | 6:30.93 | +16.33\n15 | 6 | o | Dmitry Babenko | 6:31.19 | +16.59\n16 | 3 | i | Sławomir Chmura | 6:33.20 | +18.60\n17 | 8 | o | Shane Dobbin | 6:33.39 | +18.78\n18 | 2 | i | Denny Morrison | 6:33.78 | +19.17\n19 | 9 | i | Hiroki Hirako | 6:33.90 | +19.30\n20 | 5 | o | Haralds Silovs | 6:35.69 | +21.09\n21 | 7 | i | Johan Röjler | 6:35.88 | +21.28\n22 | 4 | i | Patrick Beckert | 6:36.02 | +21.42\n23 | 9 | o | Marco Weber | 6:36.45 | +21.85\n24 | 1 | o | Roger Schneider | 6:39.30 | +24.69\n25 | 4 | o | Luca Stefani | 6:41.75 | +27.15\n26 | 1 | i | 6:43.77 | +29.17\n27 | 5 | i | Shigeyuki Dejima | 6:43.82 | +29.22"
+        }
+      ],
+      "duplicate_document_count": 0,
+      "explicit_entity_or_relationship_fields": []
+    },
+    "eval_public": {
+      "path": "..\\eval_public.jsonl",
+      "dataset": "eval_public",
+      "record_count": 100,
+      "malformed_records": [],
+      "field_summary": {
+        "answer": {
+          "present": 100,
+          "missing": 0,
+          "required_by_observation": true,
+          "null": 0,
+          "observed_types": {
+            "array": 100
+          }
+        },
+        "answer_named_in_question": {
+          "present": 100,
+          "missing": 0,
+          "required_by_observation": true,
+          "null": 0,
+          "observed_types": {
+            "boolean": 100
+          }
+        },
+        "answer_verified": {
+          "present": 100,
+          "missing": 0,
+          "required_by_observation": true,
+          "null": 0,
+          "observed_types": {
+            "boolean": 100
+          }
+        },
+        "gold_doc_ids": {
+          "present": 100,
+          "missing": 0,
+          "required_by_observation": true,
+          "null": 0,
+          "observed_types": {
+            "array": 100
+          }
+        },
+        "guess_baseline": {
+          "present": 100,
+          "missing": 0,
+          "required_by_observation": true,
+          "null": 0,
+          "observed_types": {
+            "number": 100
+          }
+        },
+        "qid": {
+          "present": 100,
+          "missing": 0,
+          "required_by_observation": true,
+          "null": 0,
+          "observed_types": {
+            "string": 100
+          }
+        },
+        "qtype": {
+          "present": 100,
+          "missing": 0,
+          "required_by_observation": true,
+          "null": 0,
+          "observed_types": {
+            "string": 100
+          }
+        },
+        "question": {
+          "present": 100,
+          "missing": 0,
+          "required_by_observation": true,
+          "null": 0,
+          "observed_types": {
+            "string": 100
+          }
+        }
+      },
+      "duplicate_id_count": 0,
+      "null_field_count": {},
+      "length_unit": "characters",
+      "length_distribution": {
+        "min": 75,
+        "p25": 95.75,
+        "median": 113.0,
+        "p75": 118.25,
+        "max": 136
+      },
+      "whitespace_token_distribution": {
+        "min": 14,
+        "p25": 17.75,
+        "median": 19.0,
+        "p75": 20.0,
+        "max": 23
+      },
+      "representative_records": [
+        {
+          "qid": "pub-001",
+          "question": "According to the provided corpus, how many biathlon events at the 2018 Winter Olympics had more than 73 competitors?",
+          "qtype": "aggregation",
+          "answer_named_in_question": false,
+          "guess_baseline": 0.0,
+          "gold_doc_ids": [
+            "Q47091419",
+            "Q47105341",
+            "Q47155365",
+            "Q47155371",
+            "Q47155408",
+            "Q47155425",
+            "Q47155467",
+            "Q47155505",
+            "Q47155541",
+            "Q47155555",
+            "Q47155815"
+          ],
+          "answer_verified": true,
+          "answer": [
+            "5"
+          ]
+        },
+        {
+          "qid": "pub-002",
+          "question": "Who won the gold medal in the men's 20 kilometres walk athletics event at the Summer Olympics held immediately before 2016?",
+          "qtype": "temporal",
+          "answer_named_in_question": false,
+          "guess_baseline": 0.0,
+          "gold_doc_ids": [
+            "Q1050909",
+            "Q26233122"
+          ],
+          "answer_verified": true,
+          "answer": [
+            "Chen Ding"
+          ]
+        }
+      ],
+      "question_type_counts": {
+        "aggregation": 21,
+        "lookup": 19,
+        "multi_hop": 28,
+        "superlative": 10,
+        "temporal": 22
+      },
+      "answer_shape_counts": {
+        "array": 100
+      },
+      "gold_document_reference_count": 547,
+      "unique_gold_document_reference_count": 518,
+      "gold_document_references_missing_from_corpus": 0,
+      "questions_with_gold_document_references": 100
+    },
+    "eval_hidden": {
+      "path": "..\\eval_hidden.jsonl",
+      "dataset": "eval_hidden",
+      "record_count": 50,
+      "malformed_records": [],
+      "field_summary": {
+        "qid": {
+          "present": 50,
+          "missing": 0,
+          "required_by_observation": true,
+          "null": 0,
+          "observed_types": {
+            "string": 50
+          }
+        },
+        "qtype": {
+          "present": 50,
+          "missing": 0,
+          "required_by_observation": true,
+          "null": 0,
+          "observed_types": {
+            "string": 50
+          }
+        },
+        "question": {
+          "present": 50,
+          "missing": 0,
+          "required_by_observation": true,
+          "null": 0,
+          "observed_types": {
+            "string": 50
+          }
+        }
+      },
+      "duplicate_id_count": 0,
+      "null_field_count": {},
+      "length_unit": "characters",
+      "length_distribution": {
+        "min": 76,
+        "p25": 93.25,
+        "median": 115.0,
+        "p75": 120.0,
+        "max": 147
+      },
+      "whitespace_token_distribution": {
+        "min": 13,
+        "p25": 18.25,
+        "median": 19.0,
+        "p75": 20.0,
+        "max": 23
+      },
+      "representative_records": [
+        {
+          "fields": [
+            "qid",
+            "qtype",
+            "question"
+          ]
+        },
+        {
+          "fields": [
+            "qid",
+            "qtype",
+            "question"
+          ]
+        }
+      ],
+      "question_type_counts": {
+        "aggregation": 15,
+        "lookup": 7,
+        "multi_hop": 10,
+        "superlative": 10,
+        "temporal": 8
+      },
+      "hidden_values_redacted": true
+    }
+  }
+}

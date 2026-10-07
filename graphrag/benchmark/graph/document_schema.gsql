@@ -1,0 +1,16 @@
+/*
+ * Phase 4 GraphMind baseline schema.
+ *
+ * It models only fields confirmed by corpus.jsonl. Entities, relationships,
+ * and chunks are omitted until later phases derive and validate them.
+ */
+
+CREATE VERTEX Document (
+  PRIMARY_ID doc_id STRING,
+  title STRING,
+  url STRING,
+  wikidata_qid STRING,
+  wikipedia_pageid INT,
+  approx_tokens INT,
+  text STRING
+) WITH primary_id_as_attribute="true"

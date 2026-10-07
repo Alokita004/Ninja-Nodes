@@ -1,0 +1,10 @@
+{
+  "status": "finalized",
+  "pipelines": [
+    "rag",
+    "graphrag",
+    "agentic"
+  ],
+  "public_questions": 100,
+  "hidden_questions": 50
+}
